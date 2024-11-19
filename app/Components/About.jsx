@@ -32,7 +32,7 @@ const About = () => {
           <div className="h-4 w-4 rounded-full bg-[#2CB0E1]  "></div>
           <p>Price of additional materials or parts (if needed)</p>
         </div>
-        <Button className="my-2" btntext={"know More"} />
+        <Button className="my-2 md:mt-32 " btntext={"know More"} />
       </div>
 
 
