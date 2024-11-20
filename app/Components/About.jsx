@@ -17,7 +17,7 @@ const About = () => {
        <BoltTag className="py-4" text="We are committed to providing our customers with exceptional."/>
         <p className="mb-4">
           Lorem Ipsum is simply dummy text of free available in market the way
-          printing and typesetting industry has been the industry's standard
+          printing and typesetting industry has been the industrys standard
           dummy text ever.
         </p>
         <div className="flex items-center gap-2">
@@ -56,16 +56,16 @@ const About = () => {
       
       <div className=" w-full md:max-w-[50%] relative block md:hidden">
         <div className="flex ">
-          <Image height={351} width={315} className="md:w-full md:h-auto w-36" src={about1} alt="about1"/>
-          <Image height={152} width={310} className="md:w-full md:h-auto w-36  " src={about2} alt="about2"/>
+          <Image height={351} width={315} className="md:w-full md:h-auto max-w-40" src={about1} alt="about1"/>
+          <Image height={152} width={310} className="md:w-full md:h-auto  max-h-28 max-w-22  " src={about2} alt="about2"/>
         </div>
-        <div className="absolute right-0 bottom-0 md:translate-x-[3%] -translate-x-0 md:translate-y-[34%] translate-y-[44%]">
-        <Image className="md:w-full md:h-auto w-36" height={371} width={378} src={about3} alt="about3"/>
+        <div className="absolute -right-2 bottom-0 md:translate-x-[3%] -translate-x-0 md:translate-y-[34%] translate-y-[44%]">
+        <Image className="md:w-full   md:h-auto max-w-52" height={371} width={378} src={about3} alt="about3"/>
         </div>
-        <p className="absolute bottom-0 left-0 translate-y-20 font-bold -skew-y-[25deg] rotate-[25deg] p-4 border border-red-500 ">10+ Years Experience</p>
+        <p className="absolute md:bottom-0 bottom-6 md:left-0 left-2  translate-y-20 md:font-bold -skew-y-[25deg] rotate-[25deg] p-1 text-sm md:text-base md:p-4 border border-red-500 ">10+ Years Experience</p>
 
       
-       <Image width={100} height={100} className="absolute left-0 bottom-0  translate-y-[165%] translate-x-[210%]" src="/sun.svg" alt="sun"/>
+       <Image width={100} height={100} className="absolute lg:left-0 lg:bottom-0  lg:translate-y-[165%] lg:translate-x-[210%] hidden lg:block" src="/sun.svg" alt="sun"/>
        
       </div>
 

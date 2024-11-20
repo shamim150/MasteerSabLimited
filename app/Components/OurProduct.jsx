@@ -12,7 +12,7 @@ const OurProduct = () => {
         <BoltTag className="my-4 text-center" text="Our Best Solution" />
 
         <p className="text-center text-black/50 mb-10 md:mb-16 lg:mb-20 text-sm md:text-base lg:text-lg leading-relaxed">
-          Get the most of reduction in your team's operating costs for the whole
+          Get the most of reduction in your teams operating costs for the whole
           product which creates
           <br /> amazing UI/UX experiences.
         </p>
