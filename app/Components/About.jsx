@@ -9,7 +9,7 @@ import BoltTag from "./Layer/BoltTag";
 
 const About = () => {
   return (
-    <div id="about" className=" md:flex px-2 md:px-0 md:items-center md:justify-center md:gap-5 mt-24 mb-40 max-w-7xl mx-auto">
+    <div id="about" className=" md:flex px-2 md:px-0 md:items-center md:justify-center md:gap-5 pt-32 mb-40 max-w-7xl mx-auto">
       <div className="md:max-w-[50%]">
 
         <Heading text="About Our Company"/>

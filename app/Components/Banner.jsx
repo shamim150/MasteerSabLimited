@@ -1,7 +1,7 @@
 "use client";
-import sliderr1 from "../../Assets/Slider_1.jpg";
-import sliderr2 from "../../Assets/Slider_2.jpg";
-import sliderr3 from "../../Assets/Slider_3.jpg";
+import sliderr1 from "../../public/vehicaltracking.gif";
+import sliderr2 from "../../public/mastersab.gif";
+import sliderr3 from "../../public/smartboard.gif";
 import vector from "../../Assets/banner1-vector.png";
 import spring1 from "../../Assets/banner-spring1.png";
 import spring2 from "../../Assets/banner-spring2.png";
@@ -31,7 +31,7 @@ export default function App() {
         spaceBetween={30}
       
         autoplay={{
-          delay: 2500,
+          delay: 5000,
           disableOnInteraction: false,
         }}
        
@@ -51,25 +51,25 @@ export default function App() {
         </SwiperSlide>
       </Swiper>
 
-      <div className="bg-black/70 absolute inset-0   z-10 flex justify-center items-center h-full w-full">
-        <Image
+      <div className="bg-black/30 absolute inset-0   z-10 flex justify-center items-center h-full w-full">
+        {/* <Image
           className="absolute hidden md:block top-[10%] left-[30%] md:left-[25%]"
           src={spring1}
           alt="spring1"
-        />
+        /> */}
         <Image
           className="absolute hidden md:block bottom-[5%] left-[5%]"
           src={spring2}
           alt="spring2"
         />
-        <div className="text-sky-50  flex items-center justify-between md:gap-10">
+        <div className="text-sky-50  flex  md:gap-10">
           <div className=" w-1/2 ">
             <div className="flex items-center gap-2"></div>
-            <h1 className="text-xl sm:text-4xl md:text-6xl lg:text-7xl font-bold mb-6 sm:mb-8 md:mb-10 text-center">
+            <h1 className="text-xl sm:text-4xl md:text-6xl lg:text-7xl font-bold mb-6 sm:mb-8 md:mb-10 text-center top-[10%]">
               Welcome to Master Sab Limited
             </h1>
 
-            <Button className="" btntext={"Discover More"} />
+            {/* <Button className="" btntext={"Discover More"} /> */}
           </div>
 
           <div className="w-1/2">

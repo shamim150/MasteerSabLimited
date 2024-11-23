@@ -42,7 +42,7 @@ const Navbar = () => {
           {/* Menu items go here */}
 
           <Li href={"/"} className="text-primary" liText="Home" />
-          <Li href={"#about"} liText="About Us" />
+          <Li href={"/#about"} liText="About Us" />
           <Li href={"#"} liText="Services" />
           <Li href={"/contact"} liText="Contact" />
         </ul>
