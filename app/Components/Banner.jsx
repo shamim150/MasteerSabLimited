@@ -51,7 +51,9 @@ export default function App() {
         </SwiperSlide>
       </Swiper>
 
-      <div className="bg-black/30 absolute inset-0   z-10 flex justify-center items-center h-full w-full">
+      {/* <div className="bg-black/30 absolute inset-0   z-10 flex justify-between items-center h-full w-full"> */}
+
+      <div className="">
         {/* <Image
           className="absolute hidden md:block top-[10%] left-[30%] md:left-[25%]"
           src={spring1}
@@ -63,18 +65,18 @@ export default function App() {
           alt="spring2"
         />
         <div className="text-sky-50  flex  md:gap-10">
-          <div className=" w-1/2 ">
+          <div className="  ">
             <div className="flex items-center gap-2"></div>
-            <h1 className="text-xl sm:text-4xl md:text-6xl lg:text-7xl font-bold mb-6 sm:mb-8 md:mb-10 text-center top-[10%]">
-              Welcome to Master Sab Limited
-            </h1>
+            {/* <h1 className="text-xl sm:text-4xl md:text-5xl p-10 lg:text-6xl font-bold mb-6 sm:mb-8 md:mb-10 text-center text-red-600 top-[20%]">
+              Welcome to Master <br /> Sab Limited
+            </h1> */}
 
             {/* <Button className="" btntext={"Discover More"} /> */}
           </div>
 
-          <div className="w-1/2">
-            <Image className="animate-spin w-[80%] max-md:mr-2 " src={vector} alt="ll" />
-          </div>
+          {/* <div className="">
+            <Image className="animate-spin   max-md:mr-2 " src={vector} alt="ll" />
+          </div> */}
 
           <Image
             className="absolute hidden md:block bottom-[15%] right-[8%] "
@@ -84,7 +86,7 @@ export default function App() {
         </div>
       </div>
 
-      <div className="absolute top-[50%] left-0 md:flex  hidden -translate-x-[30%] z-20 -rotate-90  gap-10 ">
+      {/* <div className="absolute top-[50%] left-0 md:flex  hidden -translate-x-[30%] z-20 -rotate-90  gap-10 ">
         <div className="flex gap-3 items-center">
           <ImFacebook2 className="text-white hover:text-[#2CB0E1] transition-all duration-300 hover:scale-125" />
           <a
@@ -121,7 +123,7 @@ export default function App() {
             Instagram
           </a>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

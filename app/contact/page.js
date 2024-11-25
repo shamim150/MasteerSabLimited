@@ -4,7 +4,7 @@ import Container from "../Components/Container";
 
 const Contact = () => {
   return (
-    <div className="bg-gray-100 py-20">
+    <div className="bg-gray-100 py-28">
         <Container>
         <TitleHeader
           className="text-center text-5xl font-extrabold text-gray-900 mb-6"

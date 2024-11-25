@@ -5,7 +5,7 @@ import Slider from "./Slider";
 
 const OurProduct = () => {
   return (
-    <div className="bg-[#F8F8F8] ">
+    <div id="ourproduct" className="bg-[#F8F8F8] pt-[1px] ">
       <div className="mt-28 mx-auto max-w-7xl py-24 ">
         <Heading className="mx-auto " text="What We Offer" />
 

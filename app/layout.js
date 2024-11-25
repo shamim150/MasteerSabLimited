@@ -24,8 +24,10 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navbar/>
+        <main className="overflow-hidden">
+          <Navbar />
         {children}
+        </main>
       </body>
     </html>
   );

@@ -76,7 +76,7 @@ const Footer = () => {
           </div>
           <div className="flex items-center gap-4 mt-4">
             <FaRegMessage className="text-2xl text-red-800" />
-            <a href="mailto:mastersabplc.com" className="hover:text-red-800">mastersabplc.com</a>
+            <a href="mailto:mastersabplc.com" className="hover:text-red-800">Info@mastersabplc.com</a>
           </div>
         </div>
 
