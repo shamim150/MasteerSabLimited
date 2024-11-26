@@ -2,6 +2,7 @@
 import sliderr1 from "../../public/vehicaltracking.gif";
 import sliderr2 from "../../public/mastersab.gif";
 import sliderr3 from "../../public/smartboard.gif";
+import sliderr4 from "../../public/easy-erp.gif";
 import vector from "../../Assets/banner1-vector.png";
 import spring1 from "../../Assets/banner-spring1.png";
 import spring2 from "../../Assets/banner-spring2.png";
@@ -31,7 +32,7 @@ export default function App() {
         spaceBetween={30}
       
         autoplay={{
-          delay: 5000,
+          delay: 4900,
           disableOnInteraction: false,
         }}
        
@@ -40,14 +41,17 @@ export default function App() {
         className="mySwiper h-fit lg:h-[90vh]"
       >
         <SwiperSlide>
-          <Image src={sliderr1} alt="slider1" layout="responsive" />
+          <Image className="h-[90vh]" width={1920} height={950}  src={sliderr1} alt="slider1"  />
         </SwiperSlide>
 
         <SwiperSlide>
-          <Image src={sliderr2} alt="slider2" layout="responsive" />
+          <Image  className="h-[90vh]" width={1920} height={950}  src={sliderr2} alt="slider2"  />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={sliderr3} alt="slider3" layout="responsive" />
+          <Image  className="h-[90vh]" width={1920} height={950}  src={sliderr3} alt="slider3"  />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image  className="h-[90vh]" width={1920} height={950}  src={sliderr4} alt="slider4"  />
         </SwiperSlide>
       </Swiper>
 
@@ -66,6 +70,7 @@ export default function App() {
         />
         <div className="text-sky-50  flex  md:gap-10">
           <div className="  ">
+            
             <div className="flex items-center gap-2"></div>
             {/* <h1 className="text-xl sm:text-4xl md:text-5xl p-10 lg:text-6xl font-bold mb-6 sm:mb-8 md:mb-10 text-center text-red-600 top-[20%]">
               Welcome to Master <br /> Sab Limited
