@@ -11,7 +11,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="z-[999] sticky top-0 bg-[#0B0F14]/50 backdrop:blur-md backdrop-blur-sm opacity-90">
+    <nav className="z-[999] fixed w-full top-0 bg-[#0B0F14]/50 backdrop:blur-md backdrop-blur-sm opacity-90">
       <Container className="flex  items-center justify-between gap-5 p-1 md:p-3">
         {/* Logo */}
         <div className="flex justify-between items-center w-full lg:w-auto">

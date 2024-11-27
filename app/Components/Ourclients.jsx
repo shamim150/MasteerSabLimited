@@ -23,8 +23,9 @@ const OurClients = () => {
 
       <div className="relative">
         <Swiper
+        
           slidesPerView={5}
-          spaceBetween={20}
+          spaceBetween={10}
           loop={true}
           autoplay={{
             delay: 4500,
@@ -35,7 +36,7 @@ const OurClients = () => {
             nextEl: ".swiper-next",
           }}
           modules={[Autoplay, Navigation]}
-          className="mySwiper"
+          className="mySwiper "
           breakpoints={{
             640: {
               slidesPerView: 1,
@@ -49,8 +50,8 @@ const OurClients = () => {
           }}
         >
           {clients.map((client, index) => (
-            <SwiperSlide key={index} className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center justify-center transition-transform duration-300 hover:scale-105 hover:shadow-xl">
-              <div className="flex items-center justify-center text-xl font-bold text-white">
+            <SwiperSlide key={index} className="bg-white my-6 mx-2 rounded-lg shadow p-6 flex flex-col items-center justify-center transition-transform duration-300 hover:scale-105 hover:shadow-[0_0_10px_0.5px_#e1d4d1]">
+              <div className="flex items-center justify-center text-xl font-bold  text-white">
                 <Image className="w-20 h-20 object-contain" src={client.initials} alt={client.name} width={80} height={80} />
               </div>
               <h2 className="text-lg sm:text-xl font-semibold text-gray-800 text-center">{client.name}</h2>

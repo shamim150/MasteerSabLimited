@@ -91,7 +91,7 @@ export default function App() {
         </div>
       </div>
 
-      {/* <div className="absolute top-[50%] left-0 md:flex  hidden -translate-x-[30%] z-20 -rotate-90  gap-10 ">
+      <div className="absolute top-[50%] left-0 md:flex  hidden -translate-x-[30%] z-20 -rotate-90  gap-10 ">
         <div className="flex gap-3 items-center">
           <ImFacebook2 className="text-white hover:text-[#2CB0E1] transition-all duration-300 hover:scale-125" />
           <a
@@ -128,7 +128,7 @@ export default function App() {
             Instagram
           </a>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }

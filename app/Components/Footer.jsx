@@ -39,7 +39,7 @@ const Footer = () => {
 
         {/* Our Services */}
         <div>
-          <BoltTag className="text-[22px]" text="Our Services" />
+          <h3 className="md:text-[22px] text-sm leading-snug font-bold">Our Services</h3>
           <div className="flex flex-col gap-3 mt-4">
             {['Content Writing', 'SEO Optimization', 'Marketing Strategies', 'Design Services', 'Consulting'].map((service, index) => (
               <div key={index} className="group flex items-center">
@@ -52,7 +52,7 @@ const Footer = () => {
 
         {/* Company */}
         <div>
-          <BoltTag className="text-[22px]" text="Company" />
+        <h3 className="md:text-[22px] text-sm leading-snug font-bold">Company</h3>
           <div className="flex flex-col gap-3 mt-4">
             {['About Us', 'Careers', 'Privacy Policy', 'Terms & Conditions', 'FAQ'].map((item, index) => (
               <div key={index} className="group flex items-center">
@@ -65,7 +65,7 @@ const Footer = () => {
 
         {/* Contact Us */}
         <div>
-          <BoltTag className="text-[22px]" text="Contact Us" />
+        <h3 className="md:text-[22px] text-sm leading-snug font-bold">Contact Us</h3>
           <div className="flex items-center gap-4 mt-4">
             <FaMapMarkerAlt className="text-2xl text-red-800" />
             <p className="hover:text-red-800">House No-06, Road No-11, Shekertak, Mohammadpur, Dhaka</p>

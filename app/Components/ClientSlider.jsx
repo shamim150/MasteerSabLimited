@@ -48,7 +48,7 @@ const ClientSlider = () => {
         className="mySwiper"
       >
       
-          <SwiperSlide className="border-2 hover:border-[#2CB0E1] transition-all border-transparent duration-300 rounded-xl p-4 cursor-pointer ">
+          <SwiperSlide className="border hover:border-[#2CB0E1] transition-all border-transparent duration-300 rounded-xl p-4 cursor-pointer ">
             <Image
               className=" h-28 w-28 object-cover"
               src={Client1}
@@ -65,7 +65,7 @@ const ClientSlider = () => {
 
 
           
-          <SwiperSlide className="border-2 hover:border-[#2CB0E1] transition-all border-transparent duration-300 rounded-xl p-4 cursor-pointer">
+          <SwiperSlide className="border hover:border-[#2CB0E1] transition-all border-transparent duration-300 rounded-xl p-4 cursor-pointer">
             <Image
               className=" h-28 w-28 object-cover"
               src={Client1}
@@ -81,7 +81,7 @@ const ClientSlider = () => {
           </SwiperSlide>
 
 
-          <SwiperSlide className="border-2 hover:border-[#2CB0E1] transition-all border-transparent duration-300 rounded-xl p-4 cursor-pointer">
+          <SwiperSlide className="border hover:border-[#2CB0E1] transition-all border-transparent duration-300 rounded-xl p-4 cursor-pointer">
             <Image
               className=" h-28 w-28 object-cover"
               src={Client1}
@@ -97,7 +97,7 @@ const ClientSlider = () => {
           </SwiperSlide>
 
 
-          <SwiperSlide className="border-2 hover:border-[#2CB0E1] transition-all border-transparent duration-300 rounded-xl p-4 cursor-pointer">
+          <SwiperSlide className="border hover:border-[#2CB0E1] transition-all border-transparent duration-300 rounded-xl p-4 cursor-pointer">
             <Image
               className=" h-28 w-28 object-cover"
               src={Client1}
