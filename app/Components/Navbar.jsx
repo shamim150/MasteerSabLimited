@@ -6,6 +6,7 @@ import Container from "./Container";
 import Image from "next/image";
 import { LuMessageCircle } from "react-icons/lu";
 import Button from "./Layer/Button";
+import { FaWhatsappSquare } from "react-icons/fa";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -64,8 +65,18 @@ const Navbar = () => {
 
         {/* Mobile Button */}
         <div className="hidden md:flex justify-end items-center gap-3">
-          <Button btntext={"Let's Talk"} link="https://www.facebook.com" />
-        </div>
+  <a
+    href="https://wa.me/8801711652303"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-[#2CB0E1] text-white px-4 py-2 rounded-lg shadow-md hover:bg-green-600 hover:text-violet-700  transition-all duration-300 flex items-center gap-2"
+    
+  >
+    <FaWhatsappSquare className="size-6 " />
+
+    Let's Talk
+  </a>
+</div>
       </Container>
     </nav>
   );

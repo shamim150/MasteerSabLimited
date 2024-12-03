@@ -30,28 +30,50 @@ export default function App() {
     <div className="relative">
       <Swiper
         spaceBetween={30}
-      
         autoplay={{
           delay: 4900,
           disableOnInteraction: false,
         }}
-       
         loop
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper h-fit lg:h-[90vh]"
       >
         <SwiperSlide>
-          <Image className="h-[90vh]" width={1920} height={950}  src={sliderr1} alt="slider1"  />
+          <Image
+            className="h-[50vh] md:h-[90vh] w-full  mx-auto"
+            width={1920}
+            height={950}
+            src={sliderr1}
+            alt="slider1"
+          />
         </SwiperSlide>
 
         <SwiperSlide>
-          <Image  className="h-[90vh]" width={1920} height={950}  src={sliderr2} alt="slider2"  />
+          <Image
+            className="h-[50vh] md:h-[90vh] w-full  mx-auto"
+            width={1920}
+            height={950}
+            src={sliderr2}
+            alt="slider2"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <Image  className="h-[90vh]" width={1920} height={950}  src={sliderr3} alt="slider3"  />
+          <Image
+            className="h-[50vh] md:h-[90vh] w-full  mx-auto"
+            width={1920}
+            height={950}
+            src={sliderr3}
+            alt="slider3"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <Image  className="h-[90vh]" width={1920} height={950}  src={sliderr4} alt="slider4"  />
+          <Image
+            className="h-[50vh] md:h-[90vh] w-full  mx-auto"
+            width={1920}
+            height={950}
+            src={sliderr4}
+            alt="slider4"
+          />
         </SwiperSlide>
       </Swiper>
 
@@ -70,7 +92,6 @@ export default function App() {
         />
         <div className="text-sky-50  flex  md:gap-10">
           <div className="  ">
-            
             <div className="flex items-center gap-2"></div>
             {/* <h1 className="text-xl sm:text-4xl md:text-5xl p-10 lg:text-6xl font-bold mb-6 sm:mb-8 md:mb-10 text-center text-red-600 top-[20%]">
               Welcome to Master <br /> Sab Limited
