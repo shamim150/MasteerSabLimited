@@ -74,7 +74,7 @@ const Navbar = () => {
   >
     <FaWhatsappSquare className="size-6 " />
 
-    Let's Talk
+    Let&apos;s Talk
   </a>
 </div>
       </Container>
