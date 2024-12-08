@@ -2,9 +2,9 @@
 import sliderr1 from "../../public/vehicaltracking.gif";
 import sliderr2 from "../../public/mastersab.gif";
 import sliderr3 from "../../public/smartboard.gif";
-import sliderr4 from "../../public/easy-erp.gif";
-import vector from "../../Assets/banner1-vector.png";
-import spring1 from "../../Assets/banner-spring1.png";
+import sliderr4 from "../../public/easyerp.gif";
+// import vector from "../../Assets/banner1-vector.png";
+// import spring1 from "../../Assets/banner-spring1.png";
 import spring2 from "../../Assets/banner-spring2.png";
 import spring3 from "../../Assets/banner-spring3.png";
 import { ImFacebook2 } from "react-icons/im";
