@@ -1,8 +1,8 @@
 "use client";
-import sliderr1 from "../../public/vehicaltracking.gif";
-import sliderr2 from "../../public/mastersab.gif";
-import sliderr3 from "../../public/smartboard.gif";
-import sliderr4 from "../../public/easyerp.gif";
+import sliderr1 from "../../public/BannerSlider/vehicaltracking.gif";
+import sliderr2 from "../../public/BannerSlider/mastersab.gif";
+import sliderr3 from "../../public/BannerSlider/smartboard.gif";
+import sliderr4 from "../../public/BannerSlider/easyerp.gif";
 // import vector from "../../Assets/banner1-vector.png";
 // import spring1 from "../../Assets/banner-spring1.png";
 import spring2 from "../../Assets/banner-spring2.png";
